@@ -1,0 +1,112 @@
+@import 'styles/colors';
+
+.property {
+  margin-top: 80px;
+  padding: 0 150px;
+  display: flex;
+  &__title {
+    font-size: 34px;
+    margin: 0 auto;
+    font-weight: bold;
+    width: 90%;
+  }
+  &__actions {
+    width: 10%;
+    button {
+      cursor: pointer;
+      width: 48px;
+      height: 48px;
+      border: 1px solid $border;
+      background-color: transparent;
+      border-radius: 8px;
+      &.active {
+        background: $active;
+        border-color: transparent;
+      }
+    }
+  }
+}
+
+.properties__container {
+  padding: 1rem 150px;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0 -20px;
+  .property__card {
+    position: relative;
+    margin: 1rem 20px;
+    width: calc(50% - 40px);
+    box-shadow: 0px 3px 20px rgba(153, 155, 168, 0.15);
+    border-radius: 6px;
+    overflow: hidden;
+    &__marker {
+      position: absolute;
+      left: 0;
+      top: 30px;
+      z-index: 1;
+      padding: 10px;
+      border-radius: 0 30px 30px 0;
+      width: max-content;
+      color: $white;
+      font-family: 'Oswald', sans-serif;
+      background-color: $secondary;
+    }
+    &__blur {
+      position: absolute;
+      left: 30%;
+      top: 10%;
+      z-index: 1;
+      color: $white;
+      font-family: 'Oswald', sans-serif;
+      font-size: 28px;
+    }
+    &__body {
+      padding: 20px;
+    }
+    &--comming-soon {
+      width: calc(33.33% - 40px);
+    }
+    &__image {
+      max-width: 100%;
+      position: relative;
+      &--blur {
+        filter: blur(8px);
+      }
+    }
+    &__info {
+      display: flex;
+      justify-content: space-between;
+      padding: 50px 0;
+    }
+    &__actions {
+      display: flex;
+      justify-content: space-between;
+      button {
+        height: 40px;
+        border-radius: 8px;
+        width: 48%;
+      }
+      .under-write {
+        
+        background-color: transparent;
+        color: $primary;
+        border: 1px solid $primary;
+        &--disabled {
+          color: $gray;
+          border-color: $gray;
+        }
+      }
+      .commit {
+        background-color: $primary;
+        color: $white;
+        border: 1px solid $primary;
+        &--disabled {
+          background-color: $gray;
+          border-color: $gray;
+        }
+      }
+    }
+  }
+}

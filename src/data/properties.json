@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Tourism Real Estate with Steady Rental Income",
+    "description": "The property is situated 800 m from Rembrandtplein and 750 m from Rijksmuseum. Schiphol Airport is about 14.5 km away. This is our guests' favourite part of Amsterdam, according to independent reviews.",
+    "type": "House",
+    "rentalYield": "5%",
+    "location": "Singapore",
+    "image": "",
+    "iro": true,
+    "dealSize": "> $500.000",
+    "commitment": "4.90 (15)"
+  },
+  {
+    "name": "Crypto Community Space",
+    "description": "The property is situated 800 m from Rembrandtplein and 750 m from Rijksmuseum. Schiphol Airport is about 14.5 km away. This is our guests' favourite part of Amsterdam, according to independent reviews.",
+    "type": "Building",
+    "rentalYield": "5%",
+    "location": "Singapore",
+    "image": "",
+    "iro": true,
+    "dealSize": "> $500.000",
+    "commitment": "4.90 (15)"
+  },
+  {
+    "name": "Building with Steady Rental Income",
+    "description": "The property is situated 800 m from Rembrandtplein and 750 m from Rijksmuseum. Schiphol Airport is about 14.5 km away. This is our guests' favourite part of Amsterdam, according to independent reviews.",
+    "type": "Building",
+    "rentalYield": "5%",
+    "location": "US",
+    "image": "",
+    "iro": false,
+    "dealSize": "> $500.000",
+    "commitment": "4.90 (15)"
+  },
+  {
+    "name": "Villa with SteadyRental Income",
+    "description": "The property is situated 800 m from Rembrandtplein and 750 m from Rijksmuseum. Schiphol Airport is about 14.5 km away. This is our guests' favourite part of Amsterdam, according to independent reviews.",
+    "type": "House",
+    "rentalYield": "5%",
+    "location": "England",
+    "image": "",
+    "iro": false,
+    "dealSize": "> $500.000",
+    "commitment": "4.90 (15)"
+  },
+  {
+    "name": "Apartment with Steady Rental Income",
+    "description": "The property is situated 800 m from Rembrandtplein and 750 m from Rijksmuseum. Schiphol Airport is about 14.5 km away. This is our guests' favourite part of Amsterdam, according to independent reviews.",
+    "type": "Apartment",
+    "rentalYield": "5%",
+    "location": "Denmark",
+    "image": "",
+    "iro": false,
+    "dealSize": "> $500.000",
+    "commitment": "4.90 (15)"
+  }
+]
